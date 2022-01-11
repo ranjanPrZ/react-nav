@@ -10,8 +10,9 @@ const Navbar = () => {
 		<div>
 			<Nav>
 				<NavMenu>
-					<NavLink to='/users' activeStyle>User</NavLink>
+					<NavLink to='/' activeStyle>User</NavLink>
 					<NavLink to='/posts' activeStyle>Post</NavLink>
+					<NavLink to='/comments' activeStyle>Comment</NavLink>
 				</NavMenu>
 			</Nav>
 		</div>
