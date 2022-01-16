@@ -27,7 +27,7 @@ class Post extends Component {
 		} else {
 			return (
 				<div className="App">
-					<h4>Post lists:</h4>
+					<h4>Posts list:</h4>
 					<ol>
 						{posts.map(post => (
 							<Card style={{ width: '18rem' }}>

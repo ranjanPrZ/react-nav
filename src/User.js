@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import './App.css';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
+// export default class User extends Component {
+// 	render() {
+// 		return <div> asdfsdf</div >;
+// 	}
+// }
 class User extends Component {
 	constructor(props) {
 		super(props);
