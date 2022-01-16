@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/Post' element={<Post />} />
-        <Route path='/User' element={<User />} />
+        <Route path='/Post' exact element={<Post />} />
+        <Route path='/' element={<User />} />
         <Route path='/Comment' element={<Comment />} />
       </Routes>
     </Router>
